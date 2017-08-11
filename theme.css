@@ -1,0 +1,1433 @@
+body,html {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.logo_header {
+  width:100%;
+}
+
+.logo_header img {
+  width:100%;
+}
+
+.bg_home {
+  width:100%;
+  min-height: 600px;
+  background-image:url(img/bg_home.png);
+  background-size:100%;
+}
+
+.iip1-header{
+		color: #FFFFFF;
+}
+.fac-header{
+		color: #FFFFFF;
+}
+.led_space{
+	/*line-height: 0.3;*/
+	font-size: 0px;
+}
+.iip1_border{
+	border: 1px solid #000000;
+}
+.my-col {
+    /*border: 1px solid #000000;*/
+	line-height: 1;
+	padding-left: 0px;
+	padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.tmec_icon{
+	max-width:20px;
+	max-height:20px;
+}
+#tb-iip1.table th, #tb-iip1.table td {
+   text-align: center;   
+}
+@media only screen and (max-width: 767px){
+	.container {
+		width: 580px;
+	}
+	.iip_led{
+		max-width:9px;
+		max-height:9px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:19px;
+		max-height:19px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.led_rp3{
+		top: -21px;
+		left: 391px;
+	}
+	.led_rp2{
+		top: -21px;
+		left: 314px;
+	}
+	.led_rp1{
+		top: -21px;
+		left: 90px;
+	}
+	.led_dp1{
+		top: -123px;
+		left: 107px;
+	}
+	.led_cp1{
+		top: -149px;
+		left: 288px;
+	}
+	.led_cp2{
+		top: -149px;
+		left: 347px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -225px;
+		left: 94px;
+	}
+	.valve_v2{
+		top: -191px;
+		left: 57px;
+	}
+	.valve_v3{
+		top: -110px;
+		left: 3px;
+	}
+	.valve_v4{
+		top: -75px;
+		left: 19px;
+	}
+	.valve_v5{
+		top: -75px;
+		left: 53px;
+	}
+	.valve_v6{
+		top: -161px;
+		left: 34px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -190px;
+		left: 127px;
+	}
+	.valve_v8{
+		top: -111px;
+		left: 146px;
+	}
+	.valve_v9{
+		top: -75px;
+		left: 166px;
+	}
+	.valve_v10{
+		top: -111px;
+		left: 171px;
+	}
+	.valve_v11{
+		top: -185px;
+		left: 128px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -226px;
+		left: 148px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -191px;
+		left: 130px;
+	}
+	.valve_v14{
+		top: -75px;
+		left: 140px;
+	}
+	.valve_v15{
+		top: -110px;
+		left: 100px;
+	}
+	.valve_v16{
+		top: -185px;
+		left: 102px;
+	}
+	.valve_v17{
+		top: -111px;
+		left: 121px;
+	}
+	.valve_VL5{
+		top: -134px;
+		left: 160px;
+	}
+	.valve_VL6{
+		top: -134px;
+		left: 108px;
+	}
+	.led_tc1{
+		top: -154px;
+		left: 102px;
+	}
+	.led_tc2{
+		top: -120px;
+		left: 154px;
+	}
+	.led_tc3{
+		top: -260px;
+		left: 295px;
+	}
+	.led_tc4{
+		top: -146px;
+		left: 279px;
+	}
+	.led_tc5{
+		top: -146px;
+		left: 372px;
+	}
+	.led_tc6{
+		top: -260px;
+		left: 363px;
+	}
+	.led_ig1{
+		top: -203px;
+		left: 108px;
+	}
+	.led_ig2{
+		top: -260px;
+		left: 221px;
+	}
+	.led_ig3{
+		top: -260px;
+		left: 319px;
+	}
+	.led_tg1{
+		top: -174px;
+		left: 220px;
+	}
+	.led_tg2{
+		top: -175px;
+		left: 323px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -163px;
+		left: 46px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -213px;
+		left: 214px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -176px;
+		left: 166px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -242px;
+		left: -32px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -204px;
+		left: -80px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -242px;
+		left: 261px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -204px;
+		left: 213px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -202px;
+		left: 19px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -177px;
+		left: -30px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -254px;
+		left: -79px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -229px;
+		left: -127px;
+	}
+	
+}
+@media only screen and (max-width: 600px){
+	.container {
+		width: 460px;
+	}
+	.iip_led{
+		max-width:7px;
+		max-height:7px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:14px;
+		max-height:14px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.fac_data{
+		font-size: 11px;
+	}
+	.led_rp3{
+		top: -17px;
+		left: 306px;
+	}
+	.led_rp2{
+		top: -17px;
+		left: 246px;
+	}
+	.led_rp1{
+		top: -17px;
+		left: 70px;
+	}
+	.led_dp1{
+		top: -96px;
+		left: 84px;
+	}
+	.led_cp1{
+		top: -116px;
+		left: 225px;
+	}
+	.led_cp2{
+		top: -116px;
+		left: 271px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -175px;
+		left: 74px;
+	}
+	.valve_v2{
+		top: -149px;
+		left: 46px;
+	}
+	.valve_v3{
+		top: -86px;
+		left: 5px;
+	}
+	.valve_v4{
+		top: -58px;
+		left: 18px;
+	}
+	.valve_v5{
+		top: -58px;
+		left: 45px;
+	}
+	.valve_v6{
+		top: -126px;
+		left: 31px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -148px;
+		left: 105px;
+	}
+	.valve_v8{
+		top: -85px;
+		left: 121px;
+	}
+	.valve_v9{
+		top: -58px;
+		left: 137px;
+	}
+	.valve_v10{
+		top: -86px;
+		left: 142px;
+	}
+	.valve_v11{
+		top: -144px;
+		left: 109px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -175px;
+		left: 126px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -149px;
+		left: 112px;
+	}
+	.valve_v14{
+		top: -58px;
+		left: 120px;
+	}
+	.valve_v15{
+		top: -86px;
+		left: 90px;
+	}
+	.valve_v16{
+		top: -144px;
+		left: 93px;
+	}
+	.valve_v17{
+		top: -86px;
+		left: 108px;
+	}
+	.valve_VL5{
+		top: -104px;
+		left: 140px;
+	}
+	.valve_VL6{
+		top: -104px;
+		left: 100px;
+	}
+	.led_tc1{
+		top: -119px;
+		left: 78px;
+	}
+	.led_tc2{
+		top: -92px;
+		left: 120px;
+	}
+	.led_tc3{
+		top: -202px;
+		left: 230px;
+	}
+	.led_tc4{
+		top: -113px;
+		left: 219px;
+	}
+	.led_tc5{
+		top: -113px;
+		left: 292px;
+	}
+	.led_tc6{
+		top: -202px;
+		left: 283px;
+	}
+	.led_ig1{
+		top: -158px;
+		left: 85px;
+	}
+	.led_ig2{
+		top: -202px;
+		left: 173px;
+	}
+	.led_ig3{
+		top: -202px;
+		left: 250px;
+	}
+	.led_tg1{
+		top: -135px;
+		left: 172px;
+	}
+	.led_tg2{
+		top: -135px;
+		left: 253px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -127px;
+		left: 39px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -167px;
+		left: 170px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -139px;
+		left: 132px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -190px;
+		left: -22px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -160px;
+		left: -60px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -190px;
+		left: 203px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -160px;
+		left: 165px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -159px;
+		left: 12px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -139px;
+		left: -26px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -200px;
+		left: -65px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -179px;
+		left: -103px;
+	}
+	
+}
+@media only screen and (max-width: 480px){
+	.container {
+		width: 300px;
+	}
+	.tb_font_size{
+		font-size: 5px;
+	}
+	.iip_led{
+		max-width:4px;
+		max-height:4px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:8px;
+		max-height:8px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.fac_data{
+		font-size: 7px;
+	}
+	.led_rp3{
+		top: -10px;
+		left: 193px;
+	}
+	.led_rp2{
+		top: -10px;
+		left: 155px;
+	}
+	.led_rp1{
+		top: -10px;
+		left: 45px;
+	}
+	.led_dp1{
+		top: -60px;
+		left: 54px;
+	}
+	.led_cp1{
+		top: -72px;
+		left: 143px;
+	}
+	.led_cp2{
+		top: -72px;
+		left: 173px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -109px;
+		left: 47px;
+	}
+	.valve_v2{
+		top: -93px;
+		left: 30px;
+	}
+	.valve_v3{
+		top: -53px;
+		left: 5px;
+	}
+	.valve_v4{
+		top: -36px;
+		left: 14px;
+	}
+	.valve_v5{
+		top: -36px;
+		left: 32px;
+	}
+	.valve_v6{
+		top: -78px;
+		left: 24px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -93px;
+		left: 71px;
+	}
+	.valve_v8{
+		top: -53px;
+		left: 81px;
+	}
+	.valve_v9{
+		top: -36px;
+		left: 93px;
+	}
+	.valve_v10{
+		top: -54px;
+		left: 96px;
+	}
+	.valve_v11{
+		top: -90px;
+		left: 77px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -110px;
+		left: 88px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -93px;
+		left: 80px;
+	}
+	.valve_v14{
+		top: -36px;
+		left: 86px;
+	}
+	.valve_v15{
+		top: -54px;
+		left: 68px;
+	}
+	.valve_v16{
+		top: -90px;
+		left: 71px;
+	}
+	.valve_v17{
+		top: -54px;
+		left: 81px;
+	}
+	.valve_VL5{
+		top: -65px;
+		left: 102px;
+	}
+	.valve_VL6{
+		top: -64px;
+		left: 77px;
+	}
+	.led_tc1{
+		top: -74px;
+		left: 50px;
+	}
+	.led_tc2{
+		top: -57px;
+		left: 76px;
+	}
+	.led_tc3{
+		top: -126px;
+		left: 146px;
+	}
+	.led_tc4{
+		top: -70px;
+		left: 139px;
+	}
+	.led_tc5{
+		top: -70px;
+		left: 185px;
+	}
+	.led_tc6{
+		top: -126px;
+		left: 180px;
+	}
+	.led_ig1{
+		top: -98px;
+		left: 56px;
+	}
+	.led_ig2{
+		top: -126px;
+		left: 112px;
+	}
+	.led_ig3{
+		top: -126px;
+		left: 160px;
+	}
+	.led_tg1{
+		top: -83px;
+		left: 113px;
+	}
+	.led_tg2{
+		top: -84px;
+		left: 163px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -81px;
+		left: 30px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -105px;
+		left: 112px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -87px;
+		left: 87px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -119px;
+		left: -12px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -101px;
+		left: -37px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -119px;
+		left: 130px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -101px;
+		left: 105px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -100px;
+		left: 7px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -87px;
+		left: -18px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -125px;
+		left: -43px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -113px;
+		left: -68px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.iip_led{
+		max-width:11px;
+		max-height:11px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:24px;
+		max-height:24px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.fac_data{
+		font-size: 15px;
+	}
+	.led_rp3{
+		top: -28px;
+		left: 513px;
+	}
+	.led_rp2{
+		top: -28px;
+		left: 412px;
+	}
+	.led_rp1{
+		top: -28px;
+		left: 119px;
+	}
+	.led_dp1{
+		top: -161px;
+		left: 144px;
+	}
+	.led_cp1{
+		top: -194px;
+		left: 380px;
+	}
+	.led_cp2{
+		top: -195px;
+		left: 458px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -294px;
+		left: 123px;
+	}
+	.valve_v2{
+		top: -250px;
+		left: 77px;
+	}
+	.valve_v3{
+		top: -144px;
+		left: 7px;
+	}
+	.valve_v4{
+		top: -97px;
+		left: 29px;
+	}
+	.valve_v5{
+		top: -97px;
+		left: 74px;
+	}
+	.valve_v6{
+		top: -209px;
+		left: 50px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -249px;
+		left: 172px;
+	}
+	.valve_v8{
+		top: -143px;
+		left: 198px;
+	}
+	.valve_v9{
+		top: -97px;
+		left: 225px;
+	}
+	.valve_v10{
+		top: -145px;
+		left: 232px;
+	}
+	.valve_v11{
+		top: -241px;
+		left: 178px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -294px;
+		left: 205px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -249px;
+		left: 181px;
+	}
+	.valve_v14{
+		top: -97px;
+		left: 194px;
+	}
+	.valve_v15{
+		top: -144px;
+		left: 143px;
+	}
+	.valve_v16{
+		top: -241px;
+		left: 147px;
+	}
+	.valve_v17{
+		top: -144px;
+		left: 172px;
+	}
+	.valve_VL5{
+		top: -174px;
+		left: 224px;
+	}
+	.valve_VL6{
+		top: -174px;
+		left: 157px;
+	}
+	.led_tc1{
+		top: -199px;
+		left: 133px;
+	}
+	.led_tc2{
+		top: -155px;
+		left: 202px;
+	}
+	.led_tc3{
+		top: -339px;
+		left: 387px;
+	}
+	.led_tc4{
+		top: -189px;
+		left: 370px;
+	}
+	.led_tc5{
+		top: -189px;
+		left: 492px;
+	}
+	.led_tc6{
+		top: -339px;
+		left: 479px;
+	}
+	.led_ig1{
+		top: -264px;
+		left: 148px;
+	}
+	.led_ig2{
+		top: -339px;
+		left: 296px;
+	}
+	.led_ig3{
+		top: -339px;
+		left: 425px;
+	}
+	.led_tg1{
+		top: -225px;
+		left: 297px;
+	}
+	.led_tg2{
+		top: -226px;
+		left: 433px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -212px;
+		left: 58px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -274px;
+		left: 275px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -227px;
+		left: 213px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -312px;
+		left: -41px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -263px;
+		left: -103px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -312px;
+		left: 339px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -262px;
+		left: 278px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -260px;
+		left: 24px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -227px;
+		left: -38px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -328px;
+		left: -102px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -294px;
+		left: -164px;
+	}
+}
+
+@media (min-width: 992px) {
+	.iip_led{
+		max-width:14px;
+		max-height:14px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:31px;
+		max-height:31px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.fac_data{
+		font-size: 19px;
+	}
+	.led_rp3{
+		top: -36px;
+		left: 669px;
+	}
+	.led_rp2{
+		top: -36px;
+		left: 539px;
+	}
+	.led_rp1{
+		top: -35px;
+		left: 157px;
+	}
+	.led_dp1{
+		top: -210px;
+		left: 189px;
+	}
+	.led_cp1{
+		top: -254px;
+		left: 498px;
+	}
+	.led_cp2{
+		top: -254px;
+		left: 600px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -382px;
+		left: 161px;
+	}
+	.valve_v2{
+		top: -327px;
+		left: 101px;
+	}
+	.valve_v3{
+		top: -186px;
+		left: 10px;
+	}
+	.valve_v4{
+		top: -126px;
+		left: 38px;
+	}
+	.valve_v5{
+		top: -126px;
+		left: 98px;
+	}
+	.valve_v6{
+		top: -272px;
+		left: 67px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -324px;
+		left: 227px;
+	}
+	.valve_v8{
+		top: -186px;
+		left: 261px;
+	}
+	.valve_v9{
+		top: -126px;
+		left: 296px;
+	}
+	.valve_v10{
+		top: -187px;
+		left: 306px;
+	}
+	.valve_v11{
+		top: -314px;
+		left: 235px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -383px;
+		left: 271px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -324px;
+		left: 240px;
+	}
+	.valve_v14{
+		top: -126px;
+		left: 258px;
+	}
+	.valve_v15{
+		top: -187px;
+		left: 192px;
+	}
+	.valve_v16{
+		top: -314px;
+		left: 196px;
+	}
+	.valve_v17{
+		top: -187px;
+		left: 230px;
+	}
+	.valve_VL5{
+		top: -227px;
+		left: 298px;
+	}
+	.valve_VL6{
+		top: -227px;
+		left: 211px;
+	}
+	.led_tc1{
+		top: -260px;
+		left: 173px;
+	}
+	.led_tc2{
+		top: -201px;
+		left: 267px;
+	}
+	.led_tc3{
+		top: -442px;
+		left: 507px;
+	}
+	.led_tc4{
+		top: -245px;
+		left: 483px;
+	}
+	.led_tc5{
+		top: -246px;
+		left: 645px;
+	}
+	.led_tc6{
+		top: -442px;
+		left: 627px;
+	}
+	.led_ig1{
+		top: -344px;
+		left: 195px;
+	}
+	.led_ig2{
+		top: -442px;
+		left: 388px;
+	}
+	.led_ig3{
+		top: -441px;
+		left: 558px;
+	}
+	.led_tg1{
+		top: -293px;
+		left: 391px;
+	}
+	.led_tg2{
+		top: -295px;
+		left: 568px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -272px;
+		left: 70px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -356px;
+		left: 355px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -294px;
+		left: 274px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -406px;
+		left: -59px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -341px;
+		left: -138px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -405px;
+		left: 445px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -341px;
+		left: 363px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -338px;
+		left: 31px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -294px;
+		left: -50px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -427px;
+		left: -130px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -382px;
+		left: -211px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#img-iip1{
+		width: 100%;
+	}
+	.led_space{
+		width:100%;
+	}
+	.iip_led{
+		max-width:10px;
+		max-height:10px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.iip_valve{
+		max-width:22px;
+		max-height:22px;
+		width: auto;
+		height: auto;
+		position: relative;
+	}
+	.fac_data{
+		font-size: 23px;
+	}
+	.led_rp3{
+		top: -28px;
+		left: 534px;
+	}
+	.led_rp2{
+		top: -28px;
+		left: 432px;
+	}
+	.led_rp1{
+		top: -28px; 
+		left: 128px;
+	}
+	.led_dp1{
+		top: -168px;
+		left: 154px;
+	}
+	.led_cp1{
+		top: -202px;
+		left: 402px;
+	}
+	.led_cp2{
+		top: -202px;
+		left: 484px;
+	}
+	.valve_v1{
+		transform: rotate(90deg);
+		top: -302px;
+		left: 130px;
+	}
+	.valve_v2{
+		top: -258px;
+		left: 85px;
+	}
+	.valve_v3{
+		top: -147px;
+		left: 15px;
+	}
+	.valve_v4{
+		top: -99px;
+		left: 41px;
+	}
+	.valve_v5{
+		top: -99px;
+		left: 91px;
+	}
+	.valve_v6{
+		top: -214px;
+		left: 68px;
+	}
+	.valve_v7{
+		transform: rotate(90deg);
+		top: -257px;
+		left: 199px;
+	}
+	.valve_v8{
+		top: -148px;
+		left: 228px;
+	}
+	.valve_v9{
+		top: -98px;
+		left: 260px;
+	}
+	.valve_v10{
+		top: -148px;
+		left: 270px;
+	}
+	.valve_v11{
+		top: -248px;
+		left: 217px;
+	}
+	.valve_v12{
+		transform: rotate(90deg);
+		top: -303px;
+		left: 248px;
+	}
+	.valve_v13{
+		transform: rotate(90deg);
+		top: -257px;
+		left: 226px;
+	}
+	.valve_v14{
+		top: -98px;
+		left: 243px;
+	}
+	.valve_v15{
+		top: -148px;
+		left: 192px;
+	}
+	.valve_v16{
+		top: -248px;
+		left: 199px;
+	}
+	.valve_v17{
+		top: -148px;
+		left: 228px;
+	}
+	.valve_VL5{
+		top: -179px;
+		left: 286px;
+	}
+	.valve_VL6{
+		top: -179px;
+		left: 219px;
+	}
+	.led_tc1{
+		top: -203px;
+		left: 139px;
+	}
+	.led_tc2{
+		top: -156px;
+		left: 214px;
+	}
+	.led_tc3{
+		top: -342px;
+		left: 407px;
+	}
+	.led_tc4{
+		top: -192px;
+		left: 390px;
+	}
+	.led_tc5{
+		top: -192px;
+		left: 515px;
+	}
+	.led_tc6{
+		top: -342px;
+		left: 506px;
+	}
+	.led_ig1{
+		top: -271px;
+		left: 162px;
+	}
+	.led_ig2{
+		top: -342px;
+		left: 318px;
+	}
+	.led_ig3{
+		top: -342px;
+		left: 454px;
+	}
+	.led_tg1{
+		top: -230px;
+		left: 322px;
+	}
+	.led_tg2{
+		top: -231px;
+		left: 460px;
+	}
+	.fac_data00{ /*dt*/
+		font-weight: bold;
+		color: #FFFFFF;
+		position: relative;
+		top: -330px;
+		left: 80px;
+	}
+	.fac_data01{ /*n2*/
+		position: relative;
+		top: -432px;
+		left: 430px;
+	}
+	.fac_data02{ /*cda*/
+		position: relative;
+		top: -357px;
+		left: 333px;
+	}
+	.fac_data03{ /*rt100*/
+		position: relative;
+		top: -492px;
+		left: -73px;
+	}
+	.fac_data04{ /*rh100*/
+		position: relative;
+		top: -414px;
+		left: -170px;
+	}
+	.fac_data05{ /*rt10k*/
+		position: relative;
+		top: -492px;
+		left: 535px;
+	}
+	.fac_data06{ /*rh10k*/
+		position: relative;
+		top: -413px;
+		left: 438px;
+	}
+	.fac_data07{ /*pch_t*/
+		position: relative;
+		top: -410px;
+		left: 40px;
+	}
+	.fac_data08{ /*pcl_t*/
+		position: relative;
+		top: -357px;
+		left: -58px;
+	}
+	.fac_data09{ /*pch_p*/
+		position: relative;
+		top: -517px;
+		left: -157px;
+	}
+	.fac_data10{ /*pcl_p*/
+		position: relative;
+		top: -464px;
+		left: -254px;
+	}
+		
+}
+
